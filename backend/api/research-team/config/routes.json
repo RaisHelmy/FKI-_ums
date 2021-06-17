@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/research-teams",
+      "handler": "research-team.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/research-teams/count",
+      "handler": "research-team.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/research-teams/:id",
+      "handler": "research-team.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/research-teams",
+      "handler": "research-team.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/research-teams/:id",
+      "handler": "research-team.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/research-teams/:id",
+      "handler": "research-team.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

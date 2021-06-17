@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/research-fkis",
+      "handler": "research-fki.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/research-fkis/count",
+      "handler": "research-fki.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/research-fkis/:id",
+      "handler": "research-fki.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/research-fkis",
+      "handler": "research-fki.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/research-fkis/:id",
+      "handler": "research-fki.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/research-fkis/:id",
+      "handler": "research-fki.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

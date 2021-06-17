@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_fkis",
+  "info": {
+    "name": "Research_fki"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "research_name": {
+      "type": "string"
+    }
+  }
+}

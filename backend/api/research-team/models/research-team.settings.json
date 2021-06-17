@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "research_teams",
+  "info": {
+    "name": "Research_team"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "team_name": {
+      "type": "string"
+    }
+  }
+}
